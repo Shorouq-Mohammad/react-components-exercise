@@ -3,8 +3,12 @@ import React, { Component } from 'react';
 
 class Menu extends Component {
     render() {
-        return (<div>
-        </div>)
+        return (
+        <div>
+            Menu Component
+            <Item />
+        </div>
+        )
     }
 }
 export default Menu

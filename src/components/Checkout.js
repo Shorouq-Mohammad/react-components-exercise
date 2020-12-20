@@ -4,8 +4,12 @@ import React, { Component } from 'react';
 
 class Checkout extends Component {
     render() {
-        return (<div>
-        </div>)
+        return (
+        <div>
+            Checkout Component
+            <Item />
+        </div>
+        )
     }
 }
 export default Checkout
